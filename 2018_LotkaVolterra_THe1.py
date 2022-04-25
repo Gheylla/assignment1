@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Apr 28 08:15:49 2017
-
+#I have made a change
 @author: theimovaara
 """
 #gheylla is editing this file
@@ -21,7 +21,7 @@ d = 0.01
 
 # Definition of Rate Equation
 def dYdt(t, Y):
-    """ AkhileshReturn the growth rate of fox and rabbit populations. """
+    """ Return the growth rate of fox and rabbit populations. """
     return np.array([a*Y[0] - b*Y[0]*Y[1],
                      -c*Y[1] + d*Y[0]*Y[1]])
 
