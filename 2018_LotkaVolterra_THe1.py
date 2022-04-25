@@ -21,7 +21,7 @@ d = 0.01
 
 # Definition of Rate Equation
 def dYdt(t, Y):
-    """ Return the growth rate of fox and rabbit populations. """
+    """ AkhileshReturn the growth rate of fox and rabbit populations. """
     return np.array([a*Y[0] - b*Y[0]*Y[1],
                      -c*Y[1] + d*Y[0]*Y[1]])
 
